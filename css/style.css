@@ -1,0 +1,92 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Share+Tech&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Component */
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/icon.css');
+@import url('components/card.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Share Tech', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Share Tech', sans-serif;
+}
+
+h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+p{
+
+}
+
+footer{
+  width:100%;
+  text-align: center;
+  background: #000;
+  padding:20px 10px;
+}
+
+footer .fab{
+  color:#fff;
+}
+
+/* Custom design below! */
+
+.container{
+  width:900px;
+  margin:0 auto;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  padding:18px;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+
+@keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+}
+
+

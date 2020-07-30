@@ -1,0 +1,21 @@
+.button{
+  background: rgb(199,152,4);
+  background: linear-gradient(0deg, rgba(199,152,4,1) 9%, rgba(252,196,13,1) 100%);
+  color:white;
+  padding:15px 30px;
+  font-size: 3em
+  border:solid 1px rgba(199,152,4,1);
+  border-radius:2em;
+  display:inline-block;
+  transition: background 0.2;
+}
+
+.button:hover{
+  opacity:0.9;
+}
+
+.button:active{
+  transform: translateY(4px);
+  z-index: 100;
+}
+
